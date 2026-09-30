@@ -1,0 +1,979 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Koffend Coffee - ruang kecil untuk kopi yang besar rasanya."
+    />
+    <title>Koffend Coffee — Brewed with intention</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Navigasi utama">
+        <a
+          href="#home"
+          class="brand navbar-wordmark"
+          aria-label="Koffend Coffee"
+        >
+          <span class="wordmark-name">koffend.</span>
+          <span class="wordmark-tagline">COFFEE &amp; EATERY</span>
+        </a>
+
+        <div class="navbar-nav">
+          <a class="active" href="#home">Beranda</a>
+          <a href="#about">Cerita Kami</a>
+          <a href="#menu">Menu</a>
+          <a href="#food">Food</a>
+          <a href="#contact">Kontak</a>
+        </div>
+
+        <div class="nav-actions">
+          <button
+            class="icon-button"
+            id="search-button"
+            aria-label="Cari menu"
+            aria-expanded="false"
+            aria-controls="search-panel"
+          >
+            <i data-feather="search"></i>
+          </button>
+
+          <div class="search-panel" id="search-panel">
+            <i data-feather="search"></i>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="Cari menu favoritmu..."
+              aria-label="Cari menu"
+            />
+          </div>
+
+          <button
+            class="icon-button menu-button"
+            id="hamburger-menu"
+            aria-label="Buka menu"
+          >
+            <i data-feather="menu"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+          <p class="eyebrow">EST. 2025 · PAMULANG</p>
+
+          <h1>
+            Good coffee.<br />
+            <em>Good mood.</em>
+          </h1>
+
+          <p class="hero-copy">
+            Secangkir kopi yang diracik dengan hati, untuk menemani cerita-cerita
+            kecil yang berarti.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#menu">
+              <i data-feather="list"></i>
+              Explore menu
+            </a>
+
+            <a class="button booking-link" href="#contact">
+              <i data-feather="calendar"></i>
+              <span>Book a table</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="scroll-note">
+          <span></span>
+          Scroll untuk menjelajah
+        </div>
+      </section>
+
+      <section class="intro-section container" id="about">
+        <div class="intro-copy">
+          <p class="eyebrow accent">OUR PHILOSOPHY</p>
+
+          <h2>
+            Kopi enak,<br />
+            <em>dibuat sederhana.</em>
+          </h2>
+        </div>
+
+        <div class="intro-text">
+          <p>
+            Koffend Coffee adalah ruang kecil untuk kopi yang besar rasanya.
+            Kami percaya bahwa kopi yang baik tidak harus rumit. Dengan
+            bahan-bahan berkualitas dan teknik sederhana, kami meracik setiap
+            cangkir dengan hati, untuk menemani cerita-cerita kecil yang berarti
+            dalam hidupmu.
+          </p>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <div class="container menu-catalog">
+          <div class="featured-intro">
+            <p class="eyebrow accent">OUR FAVORITES</p>
+            <h2>Best Seller</h2>
+          </div>
+
+          <div class="featured-strip" aria-label="Menu best seller">
+            <article class="featured-card">
+              <div class="featured-card-photo">
+                <span class="featured-star" aria-label="Best seller">
+                  <i data-feather="star"></i>
+                </span>
+              </div>
+
+              <div class="featured-card-info">
+                <small>Best seller</small>
+                <strong>Butterscotch Latte</strong>
+                <span>30 K</span>
+              </div>
+            </article>
+
+            <article class="featured-card">
+              <div class="featured-card-photo">
+                <span class="featured-star" aria-label="Best seller">
+                  <i data-feather="star"></i>
+                </span>
+              </div>
+
+              <div class="featured-card-info">
+                <small>Best seller</small>
+                <strong>Nasi Goreng Kampung</strong>
+                <span>36 K</span>
+              </div>
+            </article>
+
+            <article class="featured-card">
+              <div class="featured-card-photo">
+                <span class="featured-star" aria-label="Favorite">
+                  <i data-feather="star"></i>
+                </span>
+              </div>
+
+              <div class="featured-card-info">
+                <small>Favorite</small>
+                <strong>Strawberry Mojito</strong>
+                <span>30 K</span>
+              </div>
+            </article>
+
+            <article class="featured-card">
+              <div class="featured-card-photo">
+                <span class="featured-star" aria-label="Favorite">
+                  <i data-feather="star"></i>
+                </span>
+              </div>
+
+              <div class="featured-card-info">
+                <small>Favorite</small>
+                <strong>Chicken Katsu Rice</strong>
+                <span>40 K</span>
+              </div>
+            </article>
+
+            <article class="featured-card">
+              <div class="featured-card-photo">
+                <span class="featured-star" aria-label="Favorite">
+                  <i data-feather="star"></i>
+                </span>
+              </div>
+
+              <div class="featured-card-info">
+                <small>Favorite</small>
+                <strong>Peach Americano</strong>
+                <span>30 K</span>
+              </div>
+            </article>
+
+            <article class="featured-card">
+              <div class="featured-card-photo">
+                <span class="featured-star" aria-label="Favorite">
+                  <i data-feather="star"></i>
+                </span>
+              </div>
+
+              <div class="featured-card-info">
+                <small>Favorite</small>
+                <strong>Beef Teriyaki</strong>
+                <span>45 K</span>
+              </div>
+            </article>
+
+            <article class="featured-card">
+              <div class="featured-card-photo">
+                <span class="featured-star" aria-label="Favorite">
+                  <i data-feather="star"></i>
+                </span>
+              </div>
+
+              <div class="featured-card-info">
+                <small>Favorite</small>
+                <strong>Matcha Cloud</strong>
+                <span>30 K</span>
+              </div>
+            </article>
+
+            <article class="featured-card">
+              <div class="featured-card-photo">
+                <span class="featured-star" aria-label="Favorite">
+                  <i data-feather="star"></i>
+                </span>
+              </div>
+
+              <div class="featured-card-info">
+                <small>Favorite</small>
+                <strong>French Fries</strong>
+                <span>25 K</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="catalog-intro">
+            <p class="eyebrow accent">OUR MENU</p>
+            <h2>Beverages</h2>
+            <p>Temukan minuman favoritmu untuk menemani setiap momen.</p>
+          </div>
+
+          <div class="catalog-layout">
+            <div class="catalog-photo">
+              <div class="photo-label">
+                Handcrafted<br />
+                <strong>with love</strong>
+              </div>
+            </div>
+
+            <div class="catalog-list">
+              <div class="menu-column">
+                <section class="menu-category">
+                  <h3>Mocktail</h3>
+
+                  <button
+                    class="menu-item"
+                    data-product="Strawberry Mojito"
+                    data-price="30000"
+                  >
+                    <span>Strawberry Mojito</span>
+                    <b>30 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Lychee Mojito"
+                    data-price="30000"
+                  >
+                    <span>Lychee Mojito</span>
+                    <b>30 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Peach Soda"
+                    data-price="27000"
+                  >
+                    <span>Peach Soda</span>
+                    <b>27 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Minty Black"
+                    data-price="30000"
+                  >
+                    <span>Minty Black</span>
+                    <b>30 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Blue Blossom Tea"
+                    data-price="22000"
+                  >
+                    <span>Blue Blossom Tea</span>
+                    <b>22 K</b>
+                  </button>
+                </section>
+
+                <section class="menu-category">
+                  <h3>Yakult Variant</h3>
+
+                  <button
+                    class="menu-item"
+                    data-product="Koffeberry"
+                    data-price="29000"
+                  >
+                    <span>Koffeberry</span>
+                    <b>29 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Koffeziand"
+                    data-price="29000"
+                  >
+                    <span>Koffeziand</span>
+                    <b>29 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Koffezyard"
+                    data-price="29000"
+                  >
+                    <span>Koffezyard</span>
+                    <b>29 K</b>
+                  </button>
+                </section>
+
+                <section class="menu-category">
+                  <h3>Tea Variant</h3>
+
+                  <button
+                    class="menu-item"
+                    data-product="Hot Tea"
+                    data-price="18000"
+                  >
+                    <span>Hot Tea</span>
+                    <b>18 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Iced Tea"
+                    data-price="15000"
+                  >
+                    <span>Iced Tea</span>
+                    <b>15 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Lychee Tea"
+                    data-price="25000"
+                  >
+                    <span>Lychee Tea</span>
+                    <b>25 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Lychee Berry Tea"
+                    data-price="27000"
+                  >
+                    <span>Lychee Berry Tea</span>
+                    <b>27 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Ice Lemon Tea"
+                    data-price="20000"
+                  >
+                    <span>Ice Lemon Tea</span>
+                    <b>20 K</b>
+                  </button>
+                </section>
+
+                <section class="menu-category">
+                  <h3>Koffend Signature</h3>
+
+                  <button
+                    class="menu-item"
+                    data-product="Peach Americano"
+                    data-price="30000"
+                  >
+                    <span>Peach Americano</span>
+                    <b>30 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Butterscotch Latte"
+                    data-price="30000"
+                  >
+                    <span>Butterscotch Latte</span>
+                    <b>30 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Dirty Matcha Espresso"
+                    data-price="30000"
+                  >
+                    <span>Dirty Matcha Espresso</span>
+                    <b>30 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Tiramisu Butterscotch Cream"
+                    data-price="30000"
+                  >
+                    <span>Tiramisu Butterscotch Cream</span>
+                    <b>30 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Elder Kiwi"
+                    data-price="31000"
+                  >
+                    <span>Elder Kiwi</span>
+                    <b>31 K</b>
+                  </button>
+                </section>
+              </div>
+
+              <div class="menu-column">
+                <section class="menu-category">
+                  <h3>Coffee Based</h3>
+
+                  <button
+                    class="menu-item"
+                    data-product="Espresso"
+                    data-price="18000"
+                  >
+                    <span>Espresso</span>
+                    <b>18 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Iced Black"
+                    data-price="22000"
+                  >
+                    <span>Iced Black</span>
+                    <b>22 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Hot Latte"
+                    data-price="25000"
+                  >
+                    <span>Hot Latte</span>
+                    <b>25 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Iced Latte"
+                    data-price="25000"
+                  >
+                    <span>Iced Latte</span>
+                    <b>25 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Hot Cappuccino"
+                    data-price="28000"
+                  >
+                    <span>Hot Cappuccino</span>
+                    <b>28 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Iced Cappuccino"
+                    data-price="28000"
+                  >
+                    <span>Iced Cappuccino</span>
+                    <b>28 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Hot Macchiato"
+                    data-price="28000"
+                  >
+                    <span>Hot Macchiato</span>
+                    <b>28 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Iced Macchiato"
+                    data-price="28000"
+                  >
+                    <span>Iced Macchiato</span>
+                    <b>28 K</b>
+                  </button>
+                </section>
+
+                <section class="menu-category">
+                  <h3>Flavour Coffee</h3>
+
+                  <button
+                    class="menu-item"
+                    data-product="Koffegrand"
+                    data-price="28000"
+                  >
+                    <span>Koffegrand</span>
+                    <b>28 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Caramel Latte"
+                    data-price="28000"
+                  >
+                    <span>Caramel Latte</span>
+                    <b>28 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Vanilla Latte"
+                    data-price="28000"
+                  >
+                    <span>Vanilla Latte</span>
+                    <b>28 K</b>
+                  </button>
+                </section>
+
+                <section class="menu-category">
+                  <h3>Non Coffee</h3>
+
+                  <button
+                    class="menu-item"
+                    data-product="Blueberry Tea"
+                    data-price="28000"
+                  >
+                    <span>Blueberry Tea</span>
+                    <b>28 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Iced Matcha Latte"
+                    data-price="29000"
+                  >
+                    <span>Iced Matcha Latte</span>
+                    <b>29 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Iced Choco Latte"
+                    data-price="29000"
+                  >
+                    <span>Iced Choco Latte</span>
+                    <b>29 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Iced Choco Hazelnut"
+                    data-price="29000"
+                  >
+                    <span>Iced Choco Hazelnut</span>
+                    <b>29 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Red Velvet Latte"
+                    data-price="27000"
+                  >
+                    <span>Red Velvet Latte</span>
+                    <b>27 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Iced Thai Tea"
+                    data-price="27000"
+                  >
+                    <span>Iced Thai Tea</span>
+                    <b>27 K</b>
+                  </button>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-section food-menu-section" id="food">
+        <div class="container menu-catalog">
+          <div class="catalog-intro">
+            <p class="eyebrow accent">OUR KITCHEN</p>
+            <h2>Food</h2>
+            <p>Hidangan hangat untuk melengkapi waktu santaimu.</p>
+          </div>
+
+          <div class="catalog-layout">
+            <div class="catalog-photo food-catalog-photo">
+              <div class="photo-label">
+                Made fresh<br />
+                <strong>every day</strong>
+              </div>
+            </div>
+
+            <div class="catalog-list">
+              <div class="menu-column">
+                <section class="menu-category">
+                  <h3>Asian</h3>
+
+                  <button
+                    class="menu-item"
+                    data-product="Nasi Goreng Koffend"
+                    data-price="48500"
+                  >
+                    <span>Nasi Goreng Koffend</span>
+                    <b>48.5 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Nasi Goreng Kampung"
+                    data-price="36000"
+                  >
+                    <span>Nasi Goreng Kampung</span>
+                    <b>36 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Ayam Geprek Piket"
+                    data-price="48000"
+                  >
+                    <span>Ayam Geprek Piket</span>
+                    <b>48 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Ayam Bakar Taliwang"
+                    data-price="48000"
+                  >
+                    <span>Ayam Bakar Taliwang</span>
+                    <b>48 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Nasi Timbel"
+                    data-price="45000"
+                  >
+                    <span>Nasi Timbel</span>
+                    <b>45 K</b>
+                  </button>
+                </section>
+
+                <section class="menu-category">
+                  <h3>Western</h3>
+
+                  <button
+                    class="menu-item"
+                    data-product="Spaghetti Aglio e Olio"
+                    data-price="47000"
+                  >
+                    <span>Spaghetti Aglio e Olio</span>
+                    <b>47 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Spaghetti Carbonara"
+                    data-price="48000"
+                  >
+                    <span>Spaghetti Carbonara</span>
+                    <b>48 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Chicken Steak"
+                    data-price="47000"
+                  >
+                    <span>Chicken Steak</span>
+                    <b>47 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Beef Burger"
+                    data-price="55000"
+                  >
+                    <span>Beef Burger</span>
+                    <b>55 K</b>
+                  </button>
+                </section>
+
+                <section class="menu-category">
+                  <h3>Pizza</h3>
+
+                  <button
+                    class="menu-item"
+                    data-product="Cheezy Pizza"
+                    data-price="60000"
+                  >
+                    <span>Cheezy Pizza</span>
+                    <b>60 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Pepperoni Pizza"
+                    data-price="57000"
+                  >
+                    <span>Pepperoni Pizza</span>
+                    <b>57 K</b>
+                  </button>
+                </section>
+              </div>
+
+              <div class="menu-column">
+                <section class="menu-category">
+                  <h3>Noodle</h3>
+
+                  <button
+                    class="menu-item"
+                    data-product="Bakmi Ayam Koffend"
+                    data-price="38000"
+                  >
+                    <span>Bakmi Ayam Koffend</span>
+                    <b>38 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Mi Kari Koffend"
+                    data-price="45000"
+                  >
+                    <span>Mi Kari Koffend</span>
+                    <b>45 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Mie Goreng Koffend"
+                    data-price="37000"
+                  >
+                    <span>Mie Goreng Koffend</span>
+                    <b>37 K</b>
+                  </button>
+                </section>
+
+                <section class="menu-category">
+                  <h3>Rice Bowl</h3>
+
+                  <button
+                    class="menu-item"
+                    data-product="Beef Teriyaki"
+                    data-price="45000"
+                  >
+                    <span>Beef Teriyaki</span>
+                    <b>45 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Beef Blackpepper"
+                    data-price="43000"
+                  >
+                    <span>Beef Blackpepper</span>
+                    <b>43 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Chicken Katsu Rice"
+                    data-price="40000"
+                  >
+                    <span>Chicken Katsu Rice</span>
+                    <b>40 K</b>
+                  </button>
+                </section>
+
+                <section class="menu-category">
+                  <h3>Snack &amp; Sweet Dish</h3>
+
+                  <button
+                    class="menu-item"
+                    data-product="Dimsum Koffend"
+                    data-price="27000"
+                  >
+                    <span>Dimsum Koffend</span>
+                    <b>27 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="French Fries"
+                    data-price="25000"
+                  >
+                    <span>French Fries</span>
+                    <b>25 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Roti Bakar"
+                    data-price="27000"
+                  >
+                    <span>Roti Bakar</span>
+                    <b>27 K</b>
+                  </button>
+
+                  <button
+                    class="menu-item"
+                    data-product="Cireng Sambal Rujak"
+                    data-price="23000"
+                  >
+                    <span>Cireng Sambal Rujak</span>
+                    <b>23 K</b>
+                  </button>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience-section container">
+        <div class="experience-image"></div>
+
+        <div class="experience-copy">
+          <p class="eyebrow accent">MORE THAN COFFEE</p>
+
+          <h2>
+            Tempat untuk<br />
+            <em>berhenti sejenak.</em>
+          </h2>
+
+          <p>
+            Datang untuk kopinya, tinggal karena suasananya. Temukan sudut
+            favoritmu dan biarkan waktu berjalan sedikit lebih lambat.
+          </p>
+
+          <a
+            class="button button-dark"
+            href="https://maps.app.goo.gl/SPp6bBEXFh9dVdrT6"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Buka di Maps
+            <i data-feather="map-pin"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container contact-inner">
+          <div>
+            <p class="eyebrow">COME SAY HI</p>
+
+            <h2>
+              Secangkir hangat<br />
+              <em>menunggumu.</em>
+            </h2>
+          </div>
+
+          <div class="contact-details">
+            <p>
+              <i data-feather="map-pin"></i>
+              Jl. Dr. Setiabudi, Pamulang Bar., Kec. Pamulang, Kota Tangerang
+              Selatan, Banten 15417
+            </p>
+
+            <p>
+              <i data-feather="clock"></i>
+              Setiap hari · 08.00 — 22.00
+            </p>
+
+            <a
+              class="contact-person contact-person-bottom"
+              href="https://wa.me/6281930871565?text=Halo%20Koffend%20Coffee%2C%20saya%20ingin%20bertanya."
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Chat WhatsApp +62 819-3087-1565"
+            >
+              <i data-feather="user"></i>
+              <span>+62 819-3087-1565</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <a
+        href="#home"
+        class="brand footer-logo-brand"
+        aria-label="Koffend Coffee"
+      >
+        <img
+          class="footer-logo"
+          src="IMG/koffend-logo.png"
+          alt=""
+        />
+
+        <span class="navbar-wordmark">
+          <span class="wordmark-name">koffend.</span>
+          <span class="wordmark-tagline">COFFEE &amp; EATERY</span>
+        </span>
+      </a>
+
+      <p>© 2025 Koffend Coffee. Brewed with intention.</p>
+
+      <div class="socials">
+        <a
+          href="https://www.instagram.com/koffendcoffee?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Instagram Koffend Coffee"
+        >
+          <i data-feather="instagram"></i>
+          <span>@koffendcoffee</span>
+        </a>
+
+        <a href="#" aria-label="TikTok">
+          <svg
+            class="tiktok-icon"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path
+              d="M14 4v10.1a4.4 4.4 0 1 1-3.1-4.2v3.3a1.6 1.6 0 1 0 .8 1.4V4h2.3c.3 1.5 1.2 2.6 2.8 3.1v2.4A6 6 0 0 1 14 8.4V4Z"
+            ></path>
+          </svg>
+
+          <span>TikTok</span>
+        </a>
+      </div>
+
+      <div class="gojek-availability">
+        <i data-feather="truck"></i>
+        <span>
+          Pesan juga melalui <strong>layanan delivery food</strong>
+        </span>
+      </div>
+    </footer>
+
+    <script src="JS/script1.js"></script>
+  </body>
+</html>
